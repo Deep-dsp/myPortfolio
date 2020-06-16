@@ -12,25 +12,57 @@
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <section id="homepage">
       
-      <a href="#" class="navbar-brand"><img src="images/D.png"></a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#openMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="openMenu">
+      <article class="homeBG">
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+          
+            <div class="container-fluid">
+                <h3 class="navbar-brand">DEEP PATEL</h3>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                  
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a  class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a  class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a  class="nav-link" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a  class="nav-link" href="#">work</a>
+                      </li>
+                      <li class="nav-item">
+                        <a  class="nav-link" href="#">Connect</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+      </article>
+
+      <article id="carouselSection">
         
-        <ul class="navbar-nav ml-auto font-weight-bold">
-          <li class="nav-item text-center"><a href="#" class="nav-link">HOME</a></li>
-          <li class="nav-item text-center"><a href="#" class="nav-link">ABOUT</a></li>
-          <li class="nav-item text-center"><a href="#" class="nav-link">SKILLS</a></li>
-          <li class="nav-item text-center"><a href="#" class="nav-link">MY WORK</a></li>
-          <li class="nav-item text-center"><a href="#" class="nav-link">CONTACT</a></li>
-        </ul>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/BG.png" alt="First slide">
+              </div>
+            </div>
+          </div>
 
-      </div>
+      </article>
 
-    </nav>
+    </section>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

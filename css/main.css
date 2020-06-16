@@ -1,6 +1,64 @@
+
 nav a img
 {
 	width: 50px;
 	height: auto;
 	transform: rotate(25deg);
 }
+
+.title
+{
+	font-size: 5em;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+
+.positionText
+{
+	font-size: 1.35em;
+}
+
+.textCon
+{
+	align-items: center;
+}
+
+body
+{
+	overflow: hidden;
+}
+
+.container-fluid
+{
+	width: 85%;
+}
+
+.navbar
+{
+		background: rgba(0,0,0,0.7);
+}
+
+.nav-link
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.navber-nav .nav-item .nav-link:hover
+{
+	color: red;
+}
+
+h3.navbar-brand
+{
+	color: #fff;
+	font-size: 1.6em;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+
+
+/* -------------Navbar Ends Here--------------*/
