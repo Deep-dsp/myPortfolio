@@ -23,11 +23,6 @@ nav a img
 	align-items: center;
 }
 
-body
-{
-	overflow: hidden;
-}
-
 .container-fluid
 {
 	width: 85%;
@@ -40,8 +35,9 @@ body
 
 .nav-link
 {
+	font-family: 'Arial', sans-serif;
 	font-size: 1.2em;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	letter-spacing: 2px;
 }
 
@@ -58,7 +54,87 @@ h3.navbar-brand
 	letter-spacing: 2px;
 }
 
-
-
-
 /* -------------Navbar Ends Here--------------*/
+
+/*-------Home BG IMage----*/
+
+.carousel-item
+{
+	height: 100vh;
+}
+
+.carousel-caption
+{
+	position: absolute;
+	top: 25%;
+}
+
+
+.helloTitle
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: 3px;
+}
+
+
+.dspTitle
+{
+	font-family: 'Nunito', sans-serif;
+	font-size: 4em;
+}
+
+.positionTitle
+{
+	font-family: 'Arial', sans-serif;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+
+.btn-outline-light
+{
+	font-weight: 500;
+}
+
+.workButton
+{
+	background: #ff4d4d;
+	color: #fff;
+	font-weight: 500;
+}
+
+.workButton:hover
+{
+	color: #fff;
+	background-color: #00ffa6;
+}
+
+/*-------Home BG IMage----*/
+
+/*--------------- About Styling Starts here------------------*/
+
+.aboutPage
+{
+	width: 70%;
+}
+
+.aboutTitle
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 2px; 
+}
+
+.dspImage img
+{
+	width: 500px;
+	height: auto; 
+}
+
+.aboutDescribe
+{
+	text-align: justify;
+}
+
+/*--------------- About Styling Ends here------------------*/
