@@ -107,7 +107,7 @@ h3.navbar-brand
 .workButton:hover
 {
 	color: #fff;
-	background-color: #00ffa6;
+	background-color: #03ffbc;
 }
 
 /*-------Home BG IMage----*/
@@ -124,6 +124,7 @@ h3.navbar-brand
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.5em;
 	letter-spacing: 2px; 
+	color: #ff4d4d;
 }
 
 .dspImage img
@@ -137,4 +138,8 @@ h3.navbar-brand
 	text-align: justify;
 }
 
+.aboutDescribe
+{
+	font-size: 1.2em;
+}
 /*--------------- About Styling Ends here------------------*/
