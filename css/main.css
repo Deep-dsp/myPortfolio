@@ -143,3 +143,22 @@ h3.navbar-brand
 	font-size: 1.2em;
 }
 /*--------------- About Styling Ends here------------------*/
+
+/*-------- Media Queries----------*/
+
+@media screen and (max-width: 768px)
+{
+
+	.aboutInfo
+	{
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.dspImage
+	{
+		align-items: center;
+	}
+}
+
+/*-------- Media Queries----------*/
