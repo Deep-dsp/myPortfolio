@@ -1,4 +1,9 @@
 
+body
+{
+	overflow-x: hidden;
+}
+
 nav a img
 {
 	width: 50px;
@@ -153,7 +158,7 @@ h3.navbar-brand
 	padding-bottom: 50px;
 }
 
-#skillBarBox
+.skillBarBox
 {
 	margin: 0;
 	padding: 0;
