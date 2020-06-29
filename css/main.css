@@ -226,6 +226,38 @@ h3.navbar-brand
 
 /*-------- Skill Bar Graph--------*/
 
+/*---------Work Card Area--------*/
+
+#workArea
+{
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+
+
+.rowCardBox
+{
+	padding: 50px;
+	margin: 0 auto;
+}
+
+.cardCol
+{
+	margin-left: 20px; 
+}
+
+.workTitle
+{
+	color: red;
+	padding-top: 50px;
+	font-weight: bold;
+
+}
+
+/*---------Work Card Area--------*/
+
 /*-------- Media Queries----------*/
 
 @media screen and (max-width: 768px)
