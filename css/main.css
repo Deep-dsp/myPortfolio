@@ -235,25 +235,29 @@ h3.navbar-brand
 	background-color: #f4f4f4;
 }
 
-
-
 .rowCardBox
 {
 	padding: 50px;
-	margin: 0 auto;
-}
+	justify-content: center;
 
-.cardCol
-{
-	margin-left: 20px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .workTitle
 {
-	color: red;
+	color: #262626;
 	padding-top: 50px;
 	font-weight: bold;
 
+}
+
+.underLine
+{
+	width: 130px;
+	height: 2px;
+	background: red;
 }
 
 /*---------Work Card Area--------*/
